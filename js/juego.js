@@ -118,12 +118,16 @@ const turnoPc = ( minimoPuntos ) => {
 
     }while ( puntuacionPc < minimoPuntos && minimoPuntos <=21 )
 
+    setTimeout(()=>{
+
     const mensaje = ( puntuacionJugador > 21 ) ? "Game Over":
                 ( puntuacionJugador == puntuacionPc ) ? "Empate":
                 ( puntuacionPc > 21 ) ? "Win game":
                 ( puntuacionJugador > puntuacionPc ) ? "Win Game": "Game Over";
 
     alert( mensaje );
+    
+    },10)
 }
 
 //Detiene el juego
