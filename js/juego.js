@@ -143,8 +143,8 @@ btnNuevo.addEventListener('click', ()=>{
     puntuacionJugador = 0;
     puntuacionPc = 0;
 
-    small[0] = 0;
-    small[1] = 0;
+    small[0].innerText = 0;
+    small[1].innerText = 0;
 
     divCard.innerHTML = "";
     divCardPc.innerHTML = "";
