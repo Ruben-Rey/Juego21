@@ -127,7 +127,7 @@ const turnoPc = ( minimoPuntos ) => {
 
     alert( mensaje );
     
-    },10)
+    },800)
 }
 
 //Detiene el juego
